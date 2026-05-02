@@ -34,7 +34,7 @@ export const RECENT_PROJECTS: Project[] = [
   {
     id: "appointment-reservation",
     title: "Appointment Reservation System",
-    year: "2024",
+    year: "2026",
     category: "Vibe Coding",
     description:
       "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
@@ -43,7 +43,7 @@ export const RECENT_PROJECTS: Project[] = [
   {
     id: "dear-diary",
     title: "Dear Diary",
-    year: "2024",
+    year: "2026",
     category: "Vibe Coding",
     description:
       "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
@@ -78,7 +78,7 @@ export const WORK_PROJECTS: Project[] = [
       "Designed and implemented the end-to-end UI layout in R ShinyApp, building one- and two-dimensional analysis views that made complex CDC data accessible to non-technical stakeholders.",
     ],
     images: [covidImg1, covidImg2],
-    link: "https://github.com/MaisieLiu/DataVisualization_COVIDVaccination"
+    link: "https://github.com/MaisieLiu/DataVisualization_COVIDVaccination",
   },
   {
     id: "uw-food-system",
@@ -103,7 +103,7 @@ export const WORK_PROJECTS: Project[] = [
       "Built at the 2nd UW Datathon — a clustering model surfacing groups with limited healthcare access who are at risk of falling through the cracks.",
     bullets: [
       "Engineered features across different determinants (behavioral, costs, disability, etc.) from 2,000+ records spanning 2019–2023, transforming raw census-level data into model-ready inputs for unsupervised learning.",
-      "Architected and tuned an unsupervised clustering model to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
+      "Architected and tuned an unsupervised clustering model using Python to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
       "Executed end-to-end data cleaning and preprocessing pipeline on 2,000+ records, resolving inconsistencies across 5 years of longitudinal health data to ensure model integrity and reproducible results.",
     ],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
@@ -125,15 +125,16 @@ export const WORK_PROJECTS: Project[] = [
   {
   id: "genuine-burnout",
   title: "GENUINE: Employee Burnout Analysis",
-  year: "2025",
+  year: "2026",
   category: "Data Science",
   description:
     "Analyzed employee burnout at a publicly traded bioinformatics company where over 1,000 employees work on a fully flexible work-from-anywhere schedule. Using survey data, we identified burnout hotspots across departments, tenure groups, and job titles to surface targeted recommendations for leadership.",
   bullets: [
     "Led end-to-end research project from planning through final presentation, coordinating deliverables across a team of five and ensuring on-time completion of all milestones.",
-    "Conducted quantitative analysis on employee burnout survey data, identifying that burnout rates reached 75% in Managed Care and 71.4% in Facilities while remaining concentrated rather than widespread across the organization.",
+    "Conducted quantitative analysis using Python on employee burnout survey data, identifying that burnout rates reached 75% in Managed Care and 71.4% in Facilities while remaining concentrated rather than widespread across the organization.",
     "Synthesized quantitative and qualitative findings into actionable organizational recommendations, including targeted interventions for hotspot departments and improved reorg communication protocols.",
   ],
   images: [genuineImg],
+  link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
 },
 ];
