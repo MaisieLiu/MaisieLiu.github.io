@@ -6,7 +6,7 @@ export const SOCIALS = {
   github: "https://github.com/MaisieLiu",
   email: "maisiehmliu@gmail.com",
   // Drop your resume.pdf into the /public folder and it'll be served from this URL.
-  resume: "/resume.pdf",
+  resume: "/HsiaoManLiu_Resume.pdf",
 };
 
 const Header = () => {

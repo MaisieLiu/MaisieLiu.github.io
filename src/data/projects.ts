@@ -12,6 +12,7 @@ import covidImg2 from "@/assets/projectimages/covid-dashboard-2.png";
 import foodImg1 from "@/assets/projectimages/uw-food-system-1.jpg";
 import foodImg2 from "@/assets/projectimages/uw-food-system-2.jpg";
 import markerquestImg from "@/assets/projectimages/markerquest.jpg";
+import genuineImg from "@/assets/projectimages/people-analytics.jpg";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -121,4 +122,18 @@ export const WORK_PROJECTS: Project[] = [
     ],
     images: [markerquestImg],
   },
+  {
+  id: "genuine-burnout",
+  title: "GENUINE: Employee Burnout Analysis",
+  year: "2025",
+  category: "Data Science",
+  description:
+    "Analyzed employee burnout at a publicly traded bioinformatics company where over 1,000 employees work on a fully flexible work-from-anywhere schedule. Using survey data, we identified burnout hotspots across departments, tenure groups, and job titles to surface targeted recommendations for leadership.",
+  bullets: [
+    "Led end-to-end research project from planning through final presentation, coordinating deliverables across a team of five and ensuring on-time completion of all milestones.",
+    "Conducted quantitative analysis on employee burnout survey data, identifying that burnout rates reached 75% in Managed Care and 71.4% in Facilities while remaining concentrated rather than widespread across the organization.",
+    "Synthesized quantitative and qualitative findings into actionable organizational recommendations, including targeted interventions for hotspot departments and improved reorg communication protocols.",
+  ],
+  images: [genuineImg],
+},
 ];
