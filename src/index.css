@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Patrick+Hand&family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Maisie's Portfolio — warm sticker-book / notebook design system.
+   All colors are HSL. Edit values here to retheme the whole site. */
+
+@layer base {
+  :root {
+    /* Warm paper palette */
+    --background: 38 50% 95%;          /* cream paper #FBF6EC-ish */
+    --foreground: 25 30% 18%;          /* warm dark brown ink */
+
+    --card: 40 60% 98%;
+    --card-foreground: 25 30% 18%;
+
+    --popover: 40 60% 98%;
+    --popover-foreground: 25 30% 18%;
+
+    /* Warm mustard primary */
+    --primary: 32 75% 52%;
+    --primary-foreground: 40 60% 98%;
+
+    --secondary: 40 35% 88%;
+    --secondary-foreground: 25 30% 18%;
+
+    --muted: 38 30% 90%;
+    --muted-foreground: 25 15% 40%;
+
+    --accent: 12 60% 60%;              /* terracotta */
+    --accent-foreground: 40 60% 98%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 40 60% 98%;
+
+    --border: 30 25% 80%;
+    --input: 30 25% 80%;
+    --ring: 32 75% 52%;
+
+    --radius: 0.85rem;
+
+    /* Sticker-book accent colors */
+    --sage: 95 25% 55%;
+    --terracotta: 12 60% 60%;
+    --mustard: 38 80% 55%;
+    --dusty-pink: 350 50% 75%;
+    --sky: 200 55% 65%;
+
+    /* Category pill colors */
+    --cat-vibe: 12 60% 60%;            /* terracotta for Vibe Coding */
+    --cat-data: 200 55% 50%;           /* sky blue for Data Science */
+
+    /* Washi tape */
+    --tape: 38 80% 70%;
+
+    --sidebar-background: 38 50% 95%;
+    --sidebar-foreground: 25 30% 18%;
+    --sidebar-primary: 32 75% 52%;
+    --sidebar-primary-foreground: 40 60% 98%;
+    --sidebar-accent: 40 35% 88%;
+    --sidebar-accent-foreground: 25 30% 18%;
+    --sidebar-border: 30 25% 80%;
+    --sidebar-ring: 32 75% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito', system-ui, sans-serif;
+    /* Subtle paper grain via layered radial gradients */
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(hsl(25 30% 18% / 0.035) 1px, transparent 1px),
+      radial-gradient(hsl(25 30% 18% / 0.025) 1px, transparent 1px);
+    background-size: 24px 24px, 11px 11px;
+    background-position: 0 0, 6px 6px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Caveat', 'Patrick Hand', cursive;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+}
+
+@layer components {
+  .font-hand {
+    font-family: 'Caveat', cursive;
+  }
+  .font-note {
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  /* Notebook card with slight rotation + soft shadow */
+  .paper-card {
+    @apply bg-card text-card-foreground rounded-2xl p-6 shadow-[0_8px_24px_-12px_hsl(25_30%_18%/0.25)] border border-border/60;
+    position: relative;
+  }
+
+  /* Washi tape strip — drop inside a relative container */
+  .washi-tape {
+    @apply absolute h-6 w-24 rounded-sm;
+    background: repeating-linear-gradient(
+      45deg,
+      hsl(var(--tape) / 0.85),
+      hsl(var(--tape) / 0.85) 8px,
+      hsl(var(--tape) / 0.55) 8px,
+      hsl(var(--tape) / 0.55) 16px
+    );
+    box-shadow: 0 2px 4px hsl(25 30% 18% / 0.15);
+  }
+
+  /* Dashed underline like notebook annotations */
+  .dashed-underline {
+    background-image: linear-gradient(to right, hsl(var(--foreground) / 0.4) 50%, transparent 50%);
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    padding-bottom: 4px;
+  }
+}
