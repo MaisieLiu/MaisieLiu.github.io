@@ -2,7 +2,7 @@
 // then import them and add them to this list. Each sticker animates in on the Home tab.
 
 import me from "@/assets/stickers/me.png";
-import photographer from "@/assets/stickers/photographer.png";
+import meboba from "@/assets/stickers/meboba.png";
 import travel from "@/assets/stickers/travel.png";
 import bobaFriends from "@/assets/stickers/boba-friends.png";
 import jam from "@/assets/stickers/jam.png";
