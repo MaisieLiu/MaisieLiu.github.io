@@ -77,6 +77,7 @@ export const WORK_PROJECTS: Project[] = [
       "Designed and implemented the end-to-end UI layout in R ShinyApp, building one- and two-dimensional analysis views that made complex CDC data accessible to non-technical stakeholders.",
     ],
     images: [covidImg1, covidImg2],
+    link: "https://github.com/MaisieLiu/DataVisualization_COVIDVaccination"
   },
   {
     id: "uw-food-system",
