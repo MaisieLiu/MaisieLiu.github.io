@@ -2,11 +2,11 @@
 // Example:
 //   import photo1 from "@/assets/photos/photo1.jpg";
 //   { src: photo1, alt: "Sunset over Taipei" }
-import picnic_sea from "@/assets/photos/DSC07476.JPG";
-import oldtown_dc from "@/assets/photos/DSC07290.JPG";
-import seafood_dc from "@/assets/photos/DSC07269.JPG";
-import bestie_miaoli from "@/assets/photos/DSC06643.JPG";
-import street_tainan from "@/assets/photos/DSC06540.JPG";
+import picnic_sea from "@/assets/photos/DSC07476.jpg";
+import oldtown_dc from "@/assets/photos/DSC07290.jpg";
+import seafood_dc from "@/assets/photos/DSC07269.jpg";
+import bestie_miaoli from "@/assets/photos/DSC06643.jpg";
+import street_tainan from "@/assets/photos/DSC06540.jpg";
 import sign_vegas from "@/assets/photos/DSC00185.jpg";
 
 export interface Photo {
