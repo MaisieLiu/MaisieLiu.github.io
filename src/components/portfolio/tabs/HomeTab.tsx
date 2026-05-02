@@ -37,7 +37,7 @@ const StickerBubble = ({ s, i }: { s: Sticker; i: number }) => {
         <img
           src={s.src}
           alt={s.label}
-          className="h-16 w-16 sm:h-20 sm:w-20 object-contain drop-shadow-md"
+          className="h-24 sm:h-28 w-auto object-contain drop-shadow-md pointer-events-auto"
         />
       ) : (
         <div
@@ -58,7 +58,7 @@ const HomeTab = () => {
       {/* Sticker collage */}
       <section
         aria-label="About-me sticker collage"
-        className="relative mx-auto w-full h-[420px] sm:h-[460px] rounded-3xl border-2 border-dashed border-border bg-card/60 overflow-hidden"
+        className="relative mx-auto w-full h-[480px] sm:h-[540px] rounded-3xl border-2 border-dashed border-border bg-card/60 overflow-hidden"
       >
         <span className="washi-tape -top-2 left-8 -rotate-3" />
         <span className="washi-tape -top-2 right-12 rotate-6" />
@@ -68,7 +68,7 @@ const HomeTab = () => {
             A few of my favorite things
           </h2>
           <p className="font-note text-muted-foreground mt-2 max-w-md">
-            Boba, matcha, Taipei 101, swimming, biking, books, and Taiwanese food.
+            Boba, matcha, food, swimming, biking, and reading.
             Hover the stickers — they like attention. ✨
           </p>
         </div>
