@@ -65,12 +65,6 @@ const InterestsTab = () => {
           })}
         </div>
 
-        <p className="mt-6 text-center font-note text-sm text-muted-foreground">
-          Add your photos in{" "}
-          <code className="bg-secondary rounded px-1 py-0.5 text-xs">
-            src/data/photos.ts
-          </code>
-        </p>
       </section>
     </div>
   );
