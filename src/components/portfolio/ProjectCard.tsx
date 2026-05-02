@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const categoryClass: Record<Project["category"], string> = {
   "Vibe Coding": "bg-cat-vibe/20 text-cat-vibe border-cat-vibe/40",
   "Data Science": "bg-cat-data/20 text-cat-data border-cat-data/40",
+  "Project Management": "bg-cat-pm/20 text-cat-pm border-cat-pm/40",
 };
 
 interface Props {
