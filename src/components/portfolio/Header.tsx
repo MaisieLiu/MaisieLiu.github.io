@@ -13,10 +13,10 @@ const Header = () => {
   return (
     <header className="text-center relative">
       <h1 className="font-hand text-5xl sm:text-6xl md:text-7xl text-foreground leading-tight">
-        Welcome to <span className="text-primary">Maisie's Playground!</span>
+        Welcome to <span className="text-primary">Maisie's Database!</span>
       </h1>
       <p className="font-note mt-3 text-lg sm:text-xl text-muted-foreground">
-        Data Scientist with curiosity to always try new things ✨
+        Data Sience | Business Intelligence | Project Management ✨
       </p>
 
       <nav

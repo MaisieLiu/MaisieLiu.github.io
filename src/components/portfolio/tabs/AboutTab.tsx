@@ -13,19 +13,18 @@ const AboutTab = () => {
         <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie 👋</h2>
         <div className="mt-4 space-y-4 font-note text-lg text-foreground/90 leading-relaxed">
           <p>
-            I <span className="text-terracotta font-bold">LOVE</span> food! Food brought me to
-            training as an athlete, then into food systems, nutrition, and health as an
-            undergraduate — and from there into the data analytics world.
+            I <span className="text-terracotta font-bold">LOVE</span> food! My path to data started with food. 
+            Growing up as an athlete, I developed a deep curiosity about nutrition and how food shapes performance. 
+            That curiosity led me to study food systems and health as an undergraduate, where I learned that the decisions 
+            that matter most, about people, supply chains, and wellbeing, are driven by data underneath.
           </p>
           <p>
-            I'm a professional with 4+ years of experience using data to drive decisions in
+            That foundation carried me into analytics, where I've spent 4+ years turning complex data into decisions across 
             healthcare, food & beverage, operations, and HR.
           </p>
           <p>
-            I love talking to people because it always broadens my scope and helps me learn
-            new things. So please come hang out and connect! I've always believed that we're
-            each pretty small — but if we connect with each other and create that net, we get
-            to catch all the knowledge in the world. 🌐
+            I believe the best insights come from staying curious and staying connected. 
+            If you're working on something interesting, I'd love to hear about it. 🌐
           </p>
         </div>
       </section>
