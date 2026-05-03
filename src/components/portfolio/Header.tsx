@@ -16,7 +16,7 @@ const Header = () => {
         Welcome to <span className="text-primary">Maisie's Database!</span>
       </h1>
       <p className="font-note mt-3 text-lg sm:text-xl text-muted-foreground">
-        Data Sience | Business Intelligence | Project Management ✨
+        Data Science | Business Intelligence | Project Management ✨
       </p>
 
       <nav
