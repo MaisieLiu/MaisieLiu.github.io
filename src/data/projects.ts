@@ -21,6 +21,8 @@ import clusterImg from "@/assets/projectimages/clustering.png"
 import gardenImg from "@/assets/projectimages/garden.jpg";
 import foodwasteImg1 from "@/assets/projectimages/food-waste-1.jpg";
 import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
+import gbiImg from "@/assets/projectimages/GBI-BI.png";
+import gbiImg2 from "@/assets/projectimages/GBI-BI-2.png";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -126,6 +128,21 @@ export const WORK_PROJECTS: Project[] = [
   ],
   images: [genuineImg],
   link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
+  },
+  {
+  id: "gbi-business-intelligence",
+  title: "Global Bike Inc. Business Intelligence Platform",
+  year: "2026",
+  category: "Data Science",
+  description:
+    "Business Intelligence project where I utilize Power BI and advanced Excel functions to analyze sales data across countries and cities, predict promotion & price, and build a Sales Dashboard for Global Bike Inc.",
+  bullets: [
+    "Improved forecast accuracy for discount strategies by developing predictive models on GBI transaction data analyzing sales, revenue, and distribution patterns across global markets using advanced Excel and Data Solver.",
+    "Engineered data warehouse infrastructure in Snowflake, designing dimensional schemas and fact tables that consolidated sales, inventory, and distribution data for enterprise-scale analytics.",
+    "Architected semantic models in Power BI using DAX and Power Query to transform raw transaction data into executive-ready business dashboards, enabling data-driven decision-making for sales and operations teams.",
+    "Analyzed 10GB of customer sentiment data by extracting and processing Amazon reviews using MongoDB Atlas, calculating aggregate product ratings and identifying quality trends across GBI product lines.",
+  ],
+  images: [gbiImg, gbiImg2],
   },
   {
     id: "appointment-reservation",
