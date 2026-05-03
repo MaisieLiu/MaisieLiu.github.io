@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { WORK_PROJECTS, Project } from "@/data/projects";
@@ -9,6 +9,16 @@ const categoryClass: Record<Project["category"], string> = {
   "Project Management": "bg-cat-pm/20 text-cat-pm border-cat-pm/40",
 };
 
+const BackButton = ({ to }: { to: string }) => (
+  <button
+    onClick={() => { window.location.href = to; }}
+    className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-secondary transition-colors mb-8"
+  >
+    <ArrowLeft className="h-4 w-4" />
+    Back to portfolio
+  </button>
+);
+
 const ProjectDetail = () => {
   const { projectId } = useParams<{ projectId: string }>();
   const project = WORK_PROJECTS.find((p) => p.id === projectId);
@@ -17,13 +27,7 @@ const ProjectDetail = () => {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-4 text-center px-6">
         <p className="font-hand text-4xl text-muted-foreground">Project not found 🔍</p>
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-secondary transition-colors"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to portfolio
-        </Link>
+        <BackButton to="/#/work" />
       </div>
     );
   }
@@ -37,13 +41,7 @@ const ProjectDetail = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <Link
-          to="/#/work"
-          className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-secondary transition-colors mb-8"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to portfolio
-        </Link>
+        <BackButton to="/#/work" />
       </motion.div>
 
       {/* Header card */}
