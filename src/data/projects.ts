@@ -19,6 +19,8 @@ import appsystemImg2 from "@/assets/projectimages/appointment-system-2.png";
 import appsystemImg3 from "@/assets/projectimages/appointment-system-3.png";
 import clusterImg from "@/assets/projectimages/clustering.png"
 import gardenImg from "@/assets/projectimages/garden.jpg";
+import foodwasteImg1 from "@/assets/projectimages/food-waste-1.jpg";
+import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -163,7 +165,20 @@ export const WORK_PROJECTS: Project[] = [
     images: [clusterImg],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
   },
-    {
+  {
+    id: "global-foodwaste",
+    title: "Global Analysis of Food Waste Patterns",
+    year: "2024",
+    category: "Data Science",
+    description:
+      "An analysis on global food supply and the relationship with food waste in over 100 countries, identifying nutritional gaps between countries, continents, GDP, etc.",
+    bullets: [
+      "Engineered end-to-end ETL pipelines in R to process and clean FAO datasets containing 1M+ food consumption records, ensuring data consistency through standardization and outlier detection.",
+      "Deployed 5+ Tableau dashboards visualizing food waste trends across 100+ countries and modeled supply chain inefficiencies, guiding researchers to identify under-served areas and waste reduction opportunities of up to 12%.",
+    ],
+    images: [foodwasteImg1, foodwasteImg2],
+  },
+  {
     id: "dannywoo-garden",
     title: "Creating a Seamless Experience for Danny Woo Garden Volunteers",
     year: "2024",
