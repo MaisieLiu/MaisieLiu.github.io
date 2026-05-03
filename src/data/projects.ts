@@ -43,8 +43,12 @@ export const RECENT_PROJECTS: Project[] = [
     category: "Vibe Coding",
     description:
       "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
-    bullets: [],
-    images: [appsystemImg, appsystemImg2, appsystemImg3],
+    bullets: [
+      "Gathered business requirements from Full-life Veterinary Hospital to understand booking pain points and staff workflow needs.",
+      "Conducted market research on existing reservation systems to identify best practices and feature gaps.",
+      "Vibe coded the full two-sided reservation system using Vercel V0, translating requirements into a working product.",
+    ],
+    images: [appsystemImg],
   },
   {
     id: "dear-diary",
@@ -92,50 +96,6 @@ export const RECENT_PROJECTS: Project[] = [
 // ---------------------------------------------------------------------------
 export const WORK_PROJECTS: Project[] = [
   {
-    id: "covid-dashboard",
-    title: "COVID Vaccination Dashboard in United States",
-    year: "2023",
-    category: "Data Science",
-    description:
-      "An interactive R ShinyApp dashboard exploring COVID-19 vaccination completion across the U.S., built on open-source CDC data with dynamic filtering by state, demographic, and time.",
-    bullets: [
-      "Cleaned and standardized 3,000+ data points across 57 variables from CDC open-source datasets, resolving inconsistencies to ensure accurate downstream analysis.",
-      "Engineered interactive visualizations in R (Shiny, ggplot2) including line graphs and bar charts with dynamic filtering by state, demographic, and time dimension, enabling real-time exploration of vaccination completion trends.",
-      "Designed and implemented the end-to-end UI layout in R ShinyApp, building one- and two-dimensional analysis views that made complex CDC data accessible to non-technical stakeholders.",
-    ],
-    images: [covidImg1, covidImg2],
-    link: "https://github.com/MaisieLiu/DataVisualization_COVIDVaccination",
-  },
-  {
-    id: "uw-food-system",
-    title: "Creating a Sustainable UW Food System",
-    year: "2023",
-    category: "Project Management",
-    description:
-      "Coordinated on-site visits with UW food system stakeholders to map social, environmental, and economic gaps, and proposed an innovative solution for a more sustainable campus food ecosystem.",
-    bullets: [
-      "Coordinated meetings, on-site visits, and distributed tasks across team members spanning multiple UW food system stakeholders (Food Pantry, Student Housing & Food Service, UW Farm).",
-      "Analyzed qualitative data by applying a systems thinking method through modeling the food system on the UW Seattle campus and utilizing Venn diagrams to find common problems for each stakeholder.",
-      "Proposed an innovative solution that delivers better experience and sustainability for the UW food system.",
-    ],
-    images: [foodImg1, foodImg2],
-  },
-  {
-    id: "healthcare-clustering",
-    title: "Identifying Healthcare Gap Groups with Clustering",
-    year: "2025",
-    category: "Data Science",
-    description:
-      "Built at the 2nd UW Datathon — a clustering model surfacing groups with limited healthcare access who are at risk of falling through the cracks.",
-    bullets: [
-      "Engineered features across different determinants (behavioral, costs, disability, etc.) from 2,000+ records spanning 2019–2023, transforming raw census-level data into model-ready inputs for unsupervised learning.",
-      "Architected and tuned an unsupervised clustering model using Python to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
-      "Executed end-to-end data cleaning and preprocessing pipeline on 2,000+ records, resolving inconsistencies across 5 years of longitudinal health data to ensure model integrity and reproducible results.",
-    ],
-    images: [clusterImg],
-    link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
-  },
-  {
     id: "markerquest",
     title: "MarkerQuest: The Remnant Project",
     year: "2026",
@@ -171,7 +131,11 @@ export const WORK_PROJECTS: Project[] = [
     category: "Vibe Coding",
     description:
       "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
-    bullets: [],
+    bullets: [
+      "Gathered business requirements from Full-life Veterinary Hospital to understand booking pain points and staff workflow needs.",
+      "Conducted market research on existing reservation systems to identify best practices and feature gaps.",
+      "Vibe coded the full two-sided reservation system using Vercel V0, translating requirements into a working product.",
+    ],
     images: [appsystemImg, appsystemImg2, appsystemImg3],
   },
   {
@@ -182,5 +146,49 @@ export const WORK_PROJECTS: Project[] = [
     description:
       "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
     bullets: [],
+  },
+  {
+    id: "healthcare-clustering",
+    title: "Identifying Healthcare Gap Groups with Clustering",
+    year: "2025",
+    category: "Data Science",
+    description:
+      "Built at the 2nd UW Datathon — a clustering model surfacing groups with limited healthcare access who are at risk of falling through the cracks.",
+    bullets: [
+      "Engineered features across different determinants (behavioral, costs, disability, etc.) from 2,000+ records spanning 2019–2023, transforming raw census-level data into model-ready inputs for unsupervised learning.",
+      "Architected and tuned an unsupervised clustering model using Python to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
+      "Executed end-to-end data cleaning and preprocessing pipeline on 2,000+ records, resolving inconsistencies across 5 years of longitudinal health data to ensure model integrity and reproducible results.",
+    ],
+    images: [clusterImg],
+    link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
+  },
+  {
+    id: "covid-dashboard",
+    title: "COVID Vaccination Dashboard in United States",
+    year: "2023",
+    category: "Data Science",
+    description:
+      "An interactive R ShinyApp dashboard exploring COVID-19 vaccination completion across the U.S., built on open-source CDC data with dynamic filtering by state, demographic, and time.",
+    bullets: [
+      "Cleaned and standardized 3,000+ data points across 57 variables from CDC open-source datasets, resolving inconsistencies to ensure accurate downstream analysis.",
+      "Engineered interactive visualizations in R (Shiny, ggplot2) including line graphs and bar charts with dynamic filtering by state, demographic, and time dimension, enabling real-time exploration of vaccination completion trends.",
+      "Designed and implemented the end-to-end UI layout in R ShinyApp, building one- and two-dimensional analysis views that made complex CDC data accessible to non-technical stakeholders.",
+    ],
+    images: [covidImg1, covidImg2],
+    link: "https://github.com/MaisieLiu/DataVisualization_COVIDVaccination",
+  },
+  {
+    id: "uw-food-system",
+    title: "Creating a Sustainable UW Food System",
+    year: "2023",
+    category: "Project Management",
+    description:
+      "Coordinated on-site visits with UW food system stakeholders to map social, environmental, and economic gaps, and proposed an innovative solution for a more sustainable campus food ecosystem.",
+    bullets: [
+      "Coordinated meetings, on-site visits, and distributed tasks across team members spanning multiple UW food system stakeholders (Food Pantry, Student Housing & Food Service, UW Farm).",
+      "Analyzed qualitative data by applying a systems thinking method through modeling the food system on the UW Seattle campus and utilizing Venn diagrams to find common problems for each stakeholder.",
+      "Proposed an innovative solution that delivers better experience and sustainability for the UW food system.",
+    ],
+    images: [foodImg1, foodImg2],
   },
 ];
