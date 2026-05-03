@@ -13,6 +13,7 @@ import foodImg1 from "@/assets/projectimages/uw-food-system-1.jpg";
 import foodImg2 from "@/assets/projectimages/uw-food-system-2.jpg";
 import markerquestImg from "@/assets/projectimages/markerquest.jpg";
 import genuineImg from "@/assets/projectimages/people-analytics.jpg";
+import genuineImg2 from "@/assets/projectimages/people-analytics-2.png";
 import appsystemImg from "@/assets/projectimages/appointment-system.png";
 import appsystemImg2 from "@/assets/projectimages/appointment-system-2.png";
 import appsystemImg3 from "@/assets/projectimages/appointment-system-3.png";
@@ -43,7 +44,7 @@ export const RECENT_PROJECTS: Project[] = [
     description:
       "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
     bullets: [],
-      images: [appsystemImg, appsystemImg2, appsystemImg3],
+    images: [appsystemImg, appsystemImg2, appsystemImg3],
   },
   {
     id: "dear-diary",
@@ -53,7 +54,6 @@ export const RECENT_PROJECTS: Project[] = [
     description:
       "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
     bullets: [],
-
   },
   {
     id: "healthcare-clustering",
@@ -82,7 +82,7 @@ export const RECENT_PROJECTS: Project[] = [
     "Conducted quantitative analysis using Python on employee burnout survey data, identifying that burnout rates reached 75% in Managed Care and 71.4% in Facilities while remaining concentrated rather than widespread across the organization.",
     "Synthesized quantitative and qualitative findings into actionable organizational recommendations, including targeted interventions for hotspot departments and improved reorg communication protocols.",
   ],
-  images: [genuineImg],
+  images: [genuineImg2],
   link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
   },
 ];
@@ -163,5 +163,24 @@ export const WORK_PROJECTS: Project[] = [
   ],
   images: [genuineImg],
   link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
+  },
+  {
+    id: "appointment-reservation",
+    title: "Appointment Reservation System",
+    year: "2026",
+    category: "Vibe Coding",
+    description:
+      "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
+    bullets: [],
+    images: [appsystemImg, appsystemImg2, appsystemImg3],
+  },
+  {
+    id: "dear-diary",
+    title: "Dear Diary",
+    year: "2026",
+    category: "Vibe Coding",
+    description:
+      "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
+    bullets: [],
   },
 ];

@@ -184,7 +184,7 @@ const HomeTab = () => {
             <div
               className="w-px flex-none"
               style={{
-                height: "48px",
+                height: "100px",
                 borderLeft: "1.5px dashed hsl(var(--border))",
               }}
             />
