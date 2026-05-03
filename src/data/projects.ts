@@ -106,13 +106,14 @@ export const WORK_PROJECTS: Project[] = [
     year: "2026",
     category: "Project Management",
     description:
-      "As part of America's 250-year celebration, led development of an interactive web app connecting new historical site plaques to hidden neighborhood histories — starting in Tacoma as an MVP.",
+      "As part of America's 250-year celebration, led development of an interactive web app connecting new historical site plaques to hidden neighborhood histories. Starting in Tacoma as an MVP, expanding Nationwide.",
     bullets: [
       "Coordinated cross-functional scheduling across team members, teaching assistants, and project sponsors to ensure on-time deliverable completion and consistent OKR achievement throughout the project lifecycle.",
       "Defined project OKRs and architected a phased roadmap aligning team milestones to stakeholder expectations, driving structured execution from kickoff to delivery.",
       "Led end-to-end data collection and validation efforts for AI chatbot training, enforcing data governance standards across 100% of project inputs to guarantee accuracy, accountability, and up-to-date historical qualitative data.",
     ],
     images: [markerquestImg],
+    link: "https://remnant-project.lovable.app",
   },
   {
   id: "genuine-burnout",
