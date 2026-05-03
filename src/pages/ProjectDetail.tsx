@@ -38,7 +38,7 @@ const ProjectDetail = () => {
         transition={{ duration: 0.3 }}
       >
         <Link
-          to="/?tab=work"
+          to="/#/work"
           className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-secondary transition-colors mb-8"
         >
           <ArrowLeft className="h-4 w-4" />
