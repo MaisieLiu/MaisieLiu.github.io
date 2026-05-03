@@ -13,6 +13,10 @@ import foodImg1 from "@/assets/projectimages/uw-food-system-1.jpg";
 import foodImg2 from "@/assets/projectimages/uw-food-system-2.jpg";
 import markerquestImg from "@/assets/projectimages/markerquest.jpg";
 import genuineImg from "@/assets/projectimages/people-analytics.jpg";
+import appsystemImg from "@/assets/projectimages/appointment-system.jpg";
+import appsystemImg2 from "@/assets/projectimages/appointment-system-2.jpg";
+import appsystemImg3 from "@/assets/projectimages/appointment-system-3.jpg";
+import clusterImg from "@/assets/projectimages/clustering.png"
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -39,6 +43,7 @@ export const RECENT_PROJECTS: Project[] = [
     description:
       "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
     bullets: [],
+      images: [appsystemImg, appsystemImg2, appsystemImg3],
   },
   {
     id: "dear-diary",
@@ -48,6 +53,7 @@ export const RECENT_PROJECTS: Project[] = [
     description:
       "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
     bullets: [],
+
   },
   {
     id: "healthcare-clustering",
@@ -56,8 +62,28 @@ export const RECENT_PROJECTS: Project[] = [
     category: "Data Science",
     description:
       "Built at the 2nd UW Datathon — a clustering model surfacing groups with limited healthcare access who are at risk of falling through the cracks.",
-    bullets: [],
+    bullets: [
+      "Engineered features across different determinants (behavioral, costs, disability, etc.) from 2,000+ records spanning 2019–2023, transforming raw census-level data into model-ready inputs for unsupervised learning.",
+      "Architected and tuned an unsupervised clustering model using Python to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
+      "Executed end-to-end data cleaning and preprocessing pipeline on 2,000+ records, resolving inconsistencies across 5 years of longitudinal health data to ensure model integrity and reproducible results.",
+    ],
+    images: [clusterImg],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
+  },
+  {
+  id: "genuine-burnout",
+  title: "GENUINE: Employee Burnout Analysis",
+  year: "2026",
+  category: "Data Science",
+  description:
+    "Analyzed employee burnout at a publicly traded bioinformatics company where over 1,000 employees work on a fully flexible work-from-anywhere schedule. Using survey data, we identified burnout hotspots across departments, tenure groups, and job titles to surface targeted recommendations for leadership.",
+  bullets: [
+    "Led end-to-end research project from planning through final presentation, coordinating deliverables across a team of five and ensuring on-time completion of all milestones.",
+    "Conducted quantitative analysis using Python on employee burnout survey data, identifying that burnout rates reached 75% in Managed Care and 71.4% in Facilities while remaining concentrated rather than widespread across the organization.",
+    "Synthesized quantitative and qualitative findings into actionable organizational recommendations, including targeted interventions for hotspot departments and improved reorg communication protocols.",
+  ],
+  images: [genuineImg],
+  link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
   },
 ];
 
@@ -106,6 +132,7 @@ export const WORK_PROJECTS: Project[] = [
       "Architected and tuned an unsupervised clustering model using Python to surface high-risk subgroups with limited healthcare access, delivering actionable segmentation that identified populations most likely to fall through gaps in the healthcare system.",
       "Executed end-to-end data cleaning and preprocessing pipeline on 2,000+ records, resolving inconsistencies across 5 years of longitudinal health data to ensure model integrity and reproducible results.",
     ],
+    images: [clusterImg],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
   },
   {
@@ -136,5 +163,5 @@ export const WORK_PROJECTS: Project[] = [
   ],
   images: [genuineImg],
   link: "https://github.com/MaisieLiu/GENuine_peopleanalytics_burnouts",
-},
+  },
 ];
