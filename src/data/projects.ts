@@ -13,9 +13,9 @@ import foodImg1 from "@/assets/projectimages/uw-food-system-1.jpg";
 import foodImg2 from "@/assets/projectimages/uw-food-system-2.jpg";
 import markerquestImg from "@/assets/projectimages/markerquest.jpg";
 import genuineImg from "@/assets/projectimages/people-analytics.jpg";
-import appsystemImg from "@/assets/projectimages/appointment-system.jpg";
-import appsystemImg2 from "@/assets/projectimages/appointment-system-2.jpg";
-import appsystemImg3 from "@/assets/projectimages/appointment-system-3.jpg";
+import appsystemImg from "@/assets/projectimages/appointment-system.png";
+import appsystemImg2 from "@/assets/projectimages/appointment-system-2.png";
+import appsystemImg3 from "@/assets/projectimages/appointment-system-3.png";
 import clusterImg from "@/assets/projectimages/clustering.png"
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
