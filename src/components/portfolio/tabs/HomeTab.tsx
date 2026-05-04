@@ -76,6 +76,31 @@ const MiniSticker = ({ s, style }: { s: Sticker; style: React.CSSProperties }) =
 const HomeTab = () => {
   return (
     <div className="space-y-10">
+      {/* Short Intro */}
+      <motion.section
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, delay: 0.1 }}
+        className="paper-card relative max-w-3xl mx-auto"
+      >
+        <span className="washi-tape -top-3 right-10 rotate-2" aria-hidden />
+        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie 👋</h2>
+        <div className="mt-4 space-y-3 font-note text-base text-foreground/90 leading-relaxed">
+          <p>
+            <span className="text-terracotta font-bold">Food-inspired</span>, data-driven analyst
+            with 4+ years turning complex data into decisions across healthcare,
+            food & beverage, operations, and HR.
+          </p>
+          <p>
+            Growing up as an athlete, food sparked my curiosity about people and
+            systems. Data became how I make sense of both.
+          </p>
+          <p>
+            Currently looking for BI, Data Science, or Data Analytics opportunities
+            in the U.S. Open to connect! 🌐
+          </p>
+        </div>
+      </motion.section>
 
       {/* Skills */}
       <motion.section
@@ -118,7 +143,7 @@ const HomeTab = () => {
           <span className="dashed-underline">Recent Projects</span>
         </h2>
         <p className="font-note text-center text-muted-foreground mt-2">
-          Stuff I've been tinkering with lately.
+          Projects I've been tinkering with lately.
         </p>
 
         {/* Three-column layout: Data Science | Me | Vibe Coding */}

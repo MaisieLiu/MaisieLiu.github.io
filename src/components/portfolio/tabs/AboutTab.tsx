@@ -24,7 +24,9 @@ const AboutTab = () => {
           </p>
           <p>
             I believe the best insights come from staying curious and staying connected. 
-            If you're working on something interesting, I'd love to hear about it. 🌐
+            I am currently looking for Business Intelligence, Data Science or Data Analytics opportunities in the United States, specifically 
+            in HR, Retail, Healthcare, etc. (also open to all industries), to help businesses make data-driven decisions! 
+            Open to connect and I'd love to hear about it. 🌐
           </p>
         </div>
       </section>

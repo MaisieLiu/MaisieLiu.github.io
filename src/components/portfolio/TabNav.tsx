@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
-export type TabKey = "home" | "about" | "work" | "interests";
+export type TabKey = "home" | "about" | "work" | "hobbies";
 
 const TABS: { key: TabKey; label: string }[] = [
   { key: "home", label: "Home" },
   { key: "work", label: "Work" },
-  { key: "interests", label: "Interests" },
+  { key: "hobbies", label: "Hobbies" },
   { key: "about", label: "About" },
 ];
 
