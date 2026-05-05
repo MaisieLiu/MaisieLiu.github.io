@@ -84,7 +84,7 @@ const HomeTab = () => {
         className="paper-card relative max-w-3xl mx-auto"
       >
         <span className="washi-tape -top-3 right-10 rotate-2" aria-hidden />
-        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie 👋</h2>
+        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie </h2>
         <div className="mt-4 space-y-3 font-note text-base text-foreground/90 leading-relaxed">
           <p>
             <span className="text-terracotta font-bold">Food-inspired</span>, data-driven analyst
@@ -96,8 +96,10 @@ const HomeTab = () => {
             systems. Data became how I make sense of both.
           </p>
           <p>
-            Currently looking for BI, Data Science, or Data Analytics opportunities
-            in the U.S. Open to connect! 🌐
+            I believe the best insights come from staying curious and staying connected. 
+            I am currently looking for Business Intelligence, Data Science or Data Analytics opportunities in the United States, specifically 
+            in HR, Retail, Healthcare, etc. (also open to all industries), to help businesses make data-driven decisions! 
+            Open to connect and I'd love to hear about it. 🌐
           </p>
         </div>
       </motion.section>

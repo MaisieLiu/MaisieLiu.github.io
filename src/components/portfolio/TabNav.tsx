@@ -6,7 +6,7 @@ const TABS: { key: TabKey; label: string }[] = [
   { key: "home", label: "Home" },
   { key: "work", label: "Work" },
   { key: "interests", label: "Hobbies" },
-  { key: "about", label: "About" },
+  { key: "about", label: "Path" },
 ];
 
 interface Props {

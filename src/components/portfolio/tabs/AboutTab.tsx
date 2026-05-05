@@ -10,7 +10,7 @@ const AboutTab = () => {
       {/* Bio */}
       <section className="paper-card relative max-w-3xl mx-auto">
         <span className="washi-tape -top-3 left-10 -rotate-2" aria-hidden />
-        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie 👋</h2>
+        <h2 className="font-hand text-4xl text-foreground">What Made Me Who I am...</h2>
         <div className="mt-4 space-y-4 font-note text-lg text-foreground/90 leading-relaxed">
           <p>
             I <span className="text-terracotta font-bold">LOVE</span> food! My path to data started with food. 
