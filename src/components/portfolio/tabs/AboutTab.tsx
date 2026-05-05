@@ -10,23 +10,53 @@ const AboutTab = () => {
       {/* Bio */}
       <section className="paper-card relative max-w-3xl mx-auto">
         <span className="washi-tape -top-3 left-10 -rotate-2" aria-hidden />
-        <h2 className="font-hand text-4xl text-foreground">What Made Me Who I am...</h2>
+        <h2 className="font-hand text-4xl text-foreground">What Made Me Who I Am</h2>
         <div className="mt-4 space-y-4 font-note text-lg text-foreground/90 leading-relaxed">
-          <p>
-            I <span className="text-terracotta font-bold">LOVE</span> food! My path to data started with food. 
-            Growing up as an athlete, I developed a deep curiosity about nutrition and how food shapes performance. 
-            That curiosity led me to study food systems and health as an undergraduate, where I learned that the decisions 
-            that matter most, about people, supply chains, and wellbeing, are driven by data underneath.
+          <p className="italic text-foreground/70">
+            I believe that everybody is a book worth reading again and again. This is mine.
           </p>
           <p>
-            That foundation carried me into analytics, where I've spent 4+ years turning complex data into decisions across 
-            healthcare, food & beverage, operations, and HR.
+            With a passion for sports,{" "}
+            <span className="font-bold text-terracotta">I grew up as a triathlete, track and field, and swimming athlete</span>.
+            Starting later than most of my counterparts, I learned early that{" "}
+            <span className="font-bold text-mustard">persistence on the right path matters more than a head start</span>.
+            Every week I showed up, fixed what could be done better, and kept going, until I made
+            it to the nationwide competition. That experience built something in me that no
+            classroom could:{" "}
+            <span className="font-bold text-sage">resilience, self-discipline, and the willingness to own my responsibilities fully</span>.
           </p>
           <p>
-            I believe the best insights come from staying curious and staying connected. 
-            I am currently looking for Business Intelligence, Data Science or Data Analytics opportunities in the United States, specifically 
-            in HR, Retail, Healthcare, etc. (also open to all industries), to help businesses make data-driven decisions! 
-            Open to connect and I'd love to hear about it. 🌐
+            Academically, I was fortunate to attend{" "}
+            <span className="font-bold text-terracotta">one of the top three high schools in Taiwan</span>.
+            The curriculum was rigorous and demanding,
+            and it pushed me to develop strong{" "}
+            <span className="font-bold text-mustard">time management skills</span>{" "}
+            early, juggling multiple subjects and commitments without losing quality. More
+            importantly, it shaped how I think. I learned to{" "}
+            <span className="font-bold text-sage">slow down, find the key information, think thoroughly, and then act</span>.
+            That deliberate approach has followed me into every complex problem I have faced since.
+            The school was also known for a{" "}
+            <span className="font-bold text-terracotta">"work hard, play hard"</span>{" "}
+            culture, which I genuinely believe in. Giving your best effort matters, and so does
+            stepping back to rest and recharge. That balance is what allows sustained high
+            performance over the long run.
+          </p>
+          <p>
+            Growing up across{" "}
+            <span className="font-bold text-mustard">multiple countries</span>{" "}
+            made me{" "}
+            <span className="font-bold text-sage">open-minded</span>{" "}
+            and curious about the world. Navigating different cultures, systems, and ways of thinking
+            taught me that{" "}
+            <span className="font-bold text-sage">diverse perspectives spark better solutions</span>{" "}
+            and shorten the path to getting there. I have always believed that{" "}
+            <span className="font-bold text-terracotta">two minds are better than one</span>,
+            and that the best work happens when people with different backgrounds bring their
+            full selves to the table.
+          </p>
+          <p>
+            Sport taught me to persist. School taught me to think. The world taught me to listen.
+            And that led to who I am today. 😄
           </p>
         </div>
       </section>
