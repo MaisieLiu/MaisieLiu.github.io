@@ -15,42 +15,38 @@ const AboutTab = () => {
           <p className="italic text-foreground/70">
             I believe that everybody is a book worth reading again and again. This is mine.
           </p>
+          <p className="italic text-foreground/70">
+            I believe that everybody is a book worth reading again and again. This is mine.
+          </p>
           <p>
-            With a passion for sports,{" "}
-            <span className="font-bold text-terracotta">I grew up as a triathlete, track and field, and swimming athlete</span>.
-            Starting later than most of my counterparts, I learned early that{" "}
+            With a passion for sports, I grew up as a triathlete, track and field, and swimming
+            athlete. Starting later than most of my counterparts, I learned early that{" "}
             <span className="font-bold text-mustard">persistence on the right path matters more than a head start</span>.
             Every week I showed up, fixed what could be done better, and kept going, until I made
             it to the nationwide competition. That experience built something in me that no
             classroom could:{" "}
-            <span className="font-bold text-sage">resilience, self-discipline, and the willingness to own my responsibilities fully</span>.
+            <span className="font-bold text-mustard">resilience and self-discipline</span>.
           </p>
           <p>
-            Academically, I was fortunate to attend{" "}
-            <span className="font-bold text-terracotta">one of the top three high schools in Taiwan</span>.
-            The curriculum was rigorous and demanding,
-            and it pushed me to develop strong{" "}
-            <span className="font-bold text-mustard">time management skills</span>{" "}
-            early, juggling multiple subjects and commitments without losing quality. More
-            importantly, it shaped how I think. I learned to{" "}
-            <span className="font-bold text-sage">slow down, find the key information, think thoroughly, and then act</span>.
+            Academically, I was fortunate to attend one of the top three high schools in Taiwan.
+            The curriculum was rigorous and demanding, and it pushed me to develop strong time
+            management skills early, juggling multiple subjects and commitments without losing
+            quality. More importantly, it shaped how I think. I learned to{" "}
+            <span className="font-bold text-mustard">slow down, find the key information, think thoroughly, and then act</span>.
             That deliberate approach has followed me into every complex problem I have faced since.
             The school was also known for a{" "}
-            <span className="font-bold text-terracotta">"work hard, play hard"</span>{" "}
+            <span className="font-bold text-mustard">"work hard, play hard"</span>{" "}
             culture, which I genuinely believe in. Giving your best effort matters, and so does
             stepping back to rest and recharge. That balance is what allows sustained high
             performance over the long run.
           </p>
           <p>
-            Growing up across{" "}
-            <span className="font-bold text-mustard">multiple countries</span>{" "}
-            made me{" "}
-            <span className="font-bold text-sage">open-minded</span>{" "}
-            and curious about the world. Navigating different cultures, systems, and ways of thinking
-            taught me that{" "}
-            <span className="font-bold text-sage">diverse perspectives spark better solutions</span>{" "}
+            Growing up across multiple countries made me{" "}
+            <span className="font-bold text-mustard">open-minded and curious about the world</span>.
+            Navigating different cultures, systems, and ways of thinking taught me that{" "}
+            <span className="font-bold text-mustard">diverse perspectives spark better solutions</span>{" "}
             and shorten the path to getting there. I have always believed that{" "}
-            <span className="font-bold text-terracotta">two minds are better than one</span>,
+            <span className="font-bold text-mustard">two minds are better than one</span>,
             and that the best work happens when people with different backgrounds bring their
             full selves to the table.
           </p>
