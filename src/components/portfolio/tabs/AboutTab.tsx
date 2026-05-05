@@ -15,9 +15,6 @@ const AboutTab = () => {
           <p className="italic text-foreground/70">
             I believe that everybody is a book worth reading again and again. This is mine.
           </p>
-          <p className="italic text-foreground/70">
-            I believe that everybody is a book worth reading again and again. This is mine.
-          </p>
           <p>
             With a passion for sports, I grew up as a triathlete, track and field, and swimming
             athlete. Starting later than most of my counterparts, I learned early that{" "}
