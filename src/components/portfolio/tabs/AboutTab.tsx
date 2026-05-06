@@ -60,7 +60,7 @@ const AboutTab = () => {
           <span className="dashed-underline">My Journey</span>
         </h2>
         <p className="font-note text-center text-muted-foreground mt-2">
-          A zig-zag of education and field experience so far.
+          A zig-zag of education and field experience.
         </p>
 
         <ol className="relative mt-10 max-w-3xl mx-auto">
