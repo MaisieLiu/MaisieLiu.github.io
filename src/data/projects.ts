@@ -24,6 +24,8 @@ import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
 import gbiImg from "@/assets/projectimages/GBI-BI.png";
 import gbiImg2 from "@/assets/projectimages/GBI-BI-2.png";
 import boxoffImg from "@/assets/projectimages/boxoffice.jpg"
+import offCampusImg1 from "@/assets/projectimages/off-campus-housing-1.png";
+import offCampusImg2 from "@/assets/projectimages/off-campus-housing-2.png";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -183,6 +185,20 @@ export const WORK_PROJECTS: Project[] = [
     ],
     images: [clusterImg],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
+  },
+  {
+    id: "uw-roommate-hunt",
+    title: "From Scrolling to Settling: Fixing the Roommate Hunt at UW Seattle",
+    year: "2025",
+    category: "Data Science",
+    description: "Researched how UW Seattle international students find off-campus roommates, uncovering visibility gaps in the UW Off-Campus Housing Marketplace through mixed-methods research combining qualitative interviews and web-based quantitative analysis.",
+    bullets: [
+      "Conducted qualitative interviews with 8 international students at UW, purposefully selected for diversity, to understand challenges in finding off-campus roommates and navigating available platforms.",
+      "Led quantitative data collection through web analysis and Google search experiments across 5 keywords, mapping search ranking scores and user navigation paths to assess marketplace visibility.",
+      "Applied mixed-methods analysis combining thematic analysis via ATLAS (deductive and inductive coding) with search ranking scoring and flowcharts to surface actionable findings.",
+      "Proposed two key recommendations: augmenting roommate-matching filters on the UW Off-Campus Housing Marketplace and improving platform visibility to better serve international students.",
+    ],
+    images: [offCampusImg1, offCampusImg2],
   },
   {
     id: "box-office-ml",
