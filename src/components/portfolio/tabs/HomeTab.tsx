@@ -322,8 +322,8 @@ const HomeTab = () => {
           className="mt-10 text-center"
         >
           <p className="font-note text-sm text-muted-foreground">
-            See all projects on the{" "}
-            <span className="font-semibold text-foreground">Work</span> tab ✦
+            See more on the{" "}
+            <span className="font-semibold text-foreground">Field Projects</span> tab ✦
           </p>
         </motion.div>
       </section>
