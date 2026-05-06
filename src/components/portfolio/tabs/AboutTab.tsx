@@ -60,7 +60,7 @@ const AboutTab = () => {
           <span className="dashed-underline">My Journey</span>
         </h2>
         <p className="font-note text-center text-muted-foreground mt-2">
-          A zig-zag of education and work so far.
+          A zig-zag of education and field experience so far.
         </p>
 
         <ol className="relative mt-10 max-w-3xl mx-auto">
@@ -135,7 +135,7 @@ const AboutTab = () => {
             <span className="h-3 w-3 rounded-full bg-sage" /> Education
           </span>
           <span className="flex items-center gap-2">
-            <span className="h-3 w-3 rounded-full bg-mustard" /> Work
+            <span className="h-3 w-3 rounded-full bg-mustard" /> Field Experience
           </span>
         </div>
 
