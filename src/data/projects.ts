@@ -12,6 +12,7 @@ import covidImg2 from "@/assets/projectimages/covid-dashboard-2.png";
 import foodImg1 from "@/assets/projectimages/uw-food-system-1.jpg";
 import foodImg2 from "@/assets/projectimages/uw-food-system-2.jpg";
 import markerquestImg from "@/assets/projectimages/markerquest.jpg";
+import markerquestImg2 from "@/assets/projectimages/markerquest-2.jpg";
 import genuineImg from "@/assets/projectimages/people-analytics.jpg";
 import genuineImg2 from "@/assets/projectimages/people-analytics-2.png";
 import appsystemImg from "@/assets/projectimages/appointment-system.png";
@@ -19,6 +20,7 @@ import appsystemImg2 from "@/assets/projectimages/appointment-system-2.png";
 import appsystemImg3 from "@/assets/projectimages/appointment-system-3.png";
 import clusterImg from "@/assets/projectimages/clustering.png"
 import gardenImg from "@/assets/projectimages/garden.jpg";
+import gardenImg2 from "@/assets/projectimages/garden-2.jpg";
 import foodwasteImg1 from "@/assets/projectimages/food-waste-1.jpg";
 import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
 import gbiImg from "@/assets/projectimages/GBI-BI.png";
@@ -57,7 +59,7 @@ export const RECENT_PROJECTS: Project[] = [
       "Defined project OKRs and architected a phased roadmap aligning team milestones to stakeholder expectations, driving structured execution from kickoff to delivery.",
       "Led end-to-end data collection and validation efforts for AI chatbot training, enforcing data governance standards across 100% of project inputs to guarantee accuracy, accountability, and up-to-date historical qualitative data.",
     ],
-    images: [markerquestImg],
+    images: [markerquestImg2],
     link: "https://remnant-project.lovable.app",
   },
   {
@@ -72,7 +74,7 @@ export const RECENT_PROJECTS: Project[] = [
       "Designed and delivered a multilingual weed-identification tool, including an interactive map and visual guides that documented 15 weed species and improved first-time volunteer accuracy by ~35%, supporting a more user-friendly onboarding process.",
       "Supported cross-functional execution by drafting lightweight PRDs, contributing to feature prioritization, and coordinating with community partners, resulting in 90% volunteer adoption and reducing onboarding time by 25 minutes per session.",
     ],
-    images: [gardenImg],
+    images: [gardenImg2],
     link: "https://www.google.com/maps/d/u/0/viewer?mid=1viBHG1hawn6B8Mc7lBcIoz9Ki0KWp20&ll=47.600434600633655%2C-122.32510939999999&z=20",
   },
   {

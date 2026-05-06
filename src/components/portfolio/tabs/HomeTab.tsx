@@ -142,7 +142,7 @@ const HomeTab = () => {
           id="recent-projects"
           className="font-hand text-4xl sm:text-5xl text-center"
         >
-          <span className="dashed-underline">Work I'm Most Proud Of</span>
+          <span className="dashed-underline">Projects I'm Most Proud Of</span>
         </h2>
         <p className="font-note text-center text-muted-foreground mt-2">
           Projects I've been tinkering with lately.
