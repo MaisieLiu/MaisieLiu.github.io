@@ -48,7 +48,7 @@ const dataProjects = RECENT_PROJECTS.filter(
   (p) => p.category === "Data Science"
 );
 const vibeProjects = RECENT_PROJECTS.filter(
-  (p) => p.category === "Vibe Coding"
+  (p) => p.category === "Project Management"
 );
 
 const MiniSticker = ({ s, style }: { s: Sticker; style: React.CSSProperties }) => (
@@ -142,7 +142,7 @@ const HomeTab = () => {
           id="recent-projects"
           className="font-hand text-4xl sm:text-5xl text-center"
         >
-          <span className="dashed-underline">View My Latest Work</span>
+          <span className="dashed-underline">Work I'm Most Proud Of</span>
         </h2>
         <p className="font-note text-center text-muted-foreground mt-2">
           Projects I've been tinkering with lately.
