@@ -23,6 +23,7 @@ import foodwasteImg1 from "@/assets/projectimages/food-waste-1.jpg";
 import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
 import gbiImg from "@/assets/projectimages/GBI-BI.png";
 import gbiImg2 from "@/assets/projectimages/GBI-BI-2.png";
+import boxoffImg from "@/assets/projectimages/boxoffice.jpg"
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -182,6 +183,20 @@ export const WORK_PROJECTS: Project[] = [
     ],
     images: [clusterImg],
     link: "https://github.com/MaisieLiu/Datathon_TeamLCSM_Healthcare",
+  },
+  {
+    id: "box-office-ml",
+    title: "Box Office Forecasting 🍿🎞️",
+    year: "2025",
+    category: "Data Science",
+    description:
+      "Built several different machine learning models using Python Scikit-Learn on IMDb dataset, taking in different variables to predict future movie revenue.",
+    bullets: [
+      "Engineered predictive models using Python (scikit-learn) on IMDb dataset with 1500+ records, comparing kNN, Random Forest, Decision Trees, and Logistic Regression; ;  used R-squared and MSE to validate results.",
+      "Performed feature engineering (categorical encoding, standardization, interaction terms) and visualized model insights using Seaborn/Matplotlib, identifying budget, genre, and release season as top revenue drivers.",
+    ],
+    images: [boxoffImg],
+    link: "https://github.com/MaisieLiu/Box-Office-Forecasting.git",
   },
   {
     id: "global-foodwaste",
