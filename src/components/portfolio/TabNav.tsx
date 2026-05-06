@@ -5,8 +5,8 @@ export type TabKey = "home" | "about" | "work" | "interests";
 const TABS: { key: TabKey; label: string }[] = [
   { key: "home", label: "Home" },
   { key: "work", label: "Work" },
-  { key: "interests", label: "Hobbies" },
   { key: "about", label: "Path" },
+  { key: "interests", label: "Hobbies" },
 ];
 
 interface Props {
