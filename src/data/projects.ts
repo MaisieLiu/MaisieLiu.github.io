@@ -24,8 +24,9 @@ import foodwasteImg2 from "@/assets/projectimages/food-waste-2.jpg";
 import gbiImg from "@/assets/projectimages/GBI-BI.png";
 import gbiImg2 from "@/assets/projectimages/GBI-BI-2.png";
 import boxoffImg from "@/assets/projectimages/boxoffice.jpg"
-import offCampusImg1 from "@/assets/projectimages/off-campus-housing-1.png";
-import offCampusImg2 from "@/assets/projectimages/off-campus-housing-2.png";
+import offCampusImg1 from "@/assets/projectimages/off-campus-housing-1.jpg";
+import offCampusImg2 from "@/assets/projectimages/off-campus-housing-2.jpg";
+import offCampusImg3 from "@/assets/projectimages/off-campus-housing-3.jpg";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
 
@@ -198,7 +199,7 @@ export const WORK_PROJECTS: Project[] = [
       "Applied mixed-methods analysis combining thematic analysis via ATLAS (deductive and inductive coding) with search ranking scoring and flowcharts to surface actionable findings.",
       "Proposed two key recommendations: augmenting roommate-matching filters on the UW Off-Campus Housing Marketplace and improving platform visibility to better serve international students.",
     ],
-    images: [offCampusImg1, offCampusImg2],
+    images: [offCampusImg1, offCampusImg2, offCampusImg3],
   },
   {
     id: "box-office-ml",
