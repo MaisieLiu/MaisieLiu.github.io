@@ -21,6 +21,8 @@ const skillColors: Record<string, { bg: string; text: string }> = {
 const categoryClass: Record<string, string> = {
   "Vibe Coding": "bg-cat-vibe/20 text-cat-vibe border-cat-vibe/40",
   "Data Science": "bg-cat-data/20 text-cat-data border-cat-data/40",
+  "Project Management": "bg-cat-pm/20 text-cat-pm border-cat-pm/40",
+  "Business Intelligence": "bg-cat-bi/20 text-cat-bi border-cat-bi/40",
 };
 
 const learnMoreColor: Record<string, string> = {

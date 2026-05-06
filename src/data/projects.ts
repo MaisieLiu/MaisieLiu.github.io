@@ -30,7 +30,7 @@ import offCampusImg1 from "@/assets/projectimages/off-campus-housing-1.jpg";
 import offCampusImg2 from "@/assets/projectimages/off-campus-housing-2.jpg";
 import offCampusImg3 from "@/assets/projectimages/off-campus-housing-3.jpg";
 
-export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management";
+export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management" | "Business Intelligence";
 
 export interface Project {
   id: string;           // used as the URL slug  /work/:id
@@ -147,7 +147,7 @@ export const WORK_PROJECTS: Project[] = [
   id: "gbi-business-intelligence",
   title: "Global Bike Inc. Business Intelligence Platform",
   year: "2026",
-  category: "Data Science",
+  category: "Business Intelligence",
   description:
     "Business Intelligence project where I utilize Power BI and advanced Excel functions to analyze sales data across countries and cities, predict promotion & price, and build a Sales Dashboard for Global Bike Inc.",
   bullets: [

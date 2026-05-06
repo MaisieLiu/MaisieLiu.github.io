@@ -7,12 +7,14 @@ const FILTERS: { label: string; value: ProjectCategory | "All" }[] = [
   { label: "Data Science", value: "Data Science" },
   { label: "Vibe Coding", value: "Vibe Coding" },
   { label: "Project Management", value: "Project Management" },
+  { label: "Business Intelligence", value: "Business Intelligence" },
 ];
 
 const filterClass: Record<ProjectCategory, string> = {
   "Data Science":       "bg-cat-data/20 text-cat-data border-cat-data/40",
   "Vibe Coding":        "bg-cat-vibe/20 text-cat-vibe border-cat-vibe/40",
   "Project Management": "bg-cat-pm/20 text-cat-pm border-cat-pm/40",
+  "Business Intelligence": "bg-cat-bi/20 text-cat-bi border-cat-bi/40",
 };
 
 const WorkTab = () => {

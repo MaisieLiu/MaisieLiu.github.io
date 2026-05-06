@@ -28,6 +28,7 @@ export default {
         "cat-vibe": "hsl(var(--cat-vibe))",
         "cat-data": "hsl(var(--cat-data))",
         "cat-pm": "hsl(var(--cat-pm))",
+        "cat-bi": "hsl(var(--cat-bi))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
