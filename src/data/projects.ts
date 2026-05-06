@@ -46,27 +46,34 @@ export interface Project {
 // ---------------------------------------------------------------------------
 export const RECENT_PROJECTS: Project[] = [
   {
-    id: "appointment-reservation",
-    title: "Appointment Reservation System",
+    id: "markerquest",
+    title: "MarkerQuest: The Remnant Project",
     year: "2026",
-    category: "Vibe Coding",
+    category: "Project Management",
     description:
-      "Built with Vercel V0 for Full-life Veterinary Hospital — a two-sided online reservation site replacing phone-call bookings, reducing no-shows, and giving the team data to act on.",
+      "As part of America's 250-year celebration, led development of an interactive web app connecting new historical site plaques to hidden neighborhood histories. Starting in Tacoma as an MVP, expanding Nationwide.",
     bullets: [
-      "Gathered business requirements from Full-life Veterinary Hospital to understand booking pain points and staff workflow needs.",
-      "Conducted market research on existing reservation systems to identify best practices and feature gaps.",
-      "Vibe coded the full two-sided reservation system using Vercel V0, translating requirements into a working product.",
+      "Coordinated cross-functional scheduling across team members, teaching assistants, and project sponsors to ensure on-time deliverable completion and consistent OKR achievement throughout the project lifecycle.",
+      "Defined project OKRs and architected a phased roadmap aligning team milestones to stakeholder expectations, driving structured execution from kickoff to delivery.",
+      "Led end-to-end data collection and validation efforts for AI chatbot training, enforcing data governance standards across 100% of project inputs to guarantee accuracy, accountability, and up-to-date historical qualitative data.",
     ],
-    images: [appsystemImg],
+    images: [markerquestImg],
+    link: "https://remnant-project.lovable.app",
   },
   {
-    id: "dear-diary",
-    title: "Dear Diary",
-    year: "2026",
-    category: "Vibe Coding",
+    id: "dannywoo-garden",
+    title: "Creating a Seamless Experience for Danny Woo Garden Volunteers",
+    year: "2024",
+    category: "Project Management",
     description:
-      "A diary + travel-diary app built with Lovable. Inspired by my own habit of writing thoughts and snapping photos to remember the moments — encouraging others to do the same.",
-    bullets: [],
+      "Creating a solution that decreases conflicts between stakeholders and volunteers. Understanding the concerns from multiple sources and reimagining the volunteer onboarding experience",
+    bullets: [
+      "Conducted user research with 12 gardeners and 48 volunteers, using surveys, interviews, and a basic SWOT analysis to understand user pain points and translate findings into clear user stories and problem statements.",
+      "Designed and delivered a multilingual weed-identification tool, including an interactive map and visual guides that documented 15 weed species and improved first-time volunteer accuracy by ~35%, supporting a more user-friendly onboarding process.",
+      "Supported cross-functional execution by drafting lightweight PRDs, contributing to feature prioritization, and coordinating with community partners, resulting in 90% volunteer adoption and reducing onboarding time by 25 minutes per session.",
+    ],
+    images: [gardenImg],
+    link: "https://www.google.com/maps/d/u/0/viewer?mid=1viBHG1hawn6B8Mc7lBcIoz9Ki0KWp20&ll=47.600434600633655%2C-122.32510939999999&z=20",
   },
   {
     id: "healthcare-clustering",
@@ -85,7 +92,7 @@ export const RECENT_PROJECTS: Project[] = [
   },
   {
   id: "genuine-burnout",
-  title: "GENUINE: Employee Burnout Analysis",
+  title: "GENUINE: Employee Burnout Analysis in People Analytics",
   year: "2026",
   category: "Data Science",
   description:
