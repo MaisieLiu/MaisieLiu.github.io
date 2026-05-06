@@ -4,10 +4,10 @@ import ProjectCard from "../ProjectCard";
 
 const FILTERS: { label: string; value: ProjectCategory | "All" }[] = [
   { label: "All", value: "All" },
-  { label: "Data Science", value: "Data Science" },
-  { label: "Vibe Coding", value: "Vibe Coding" },
-  { label: "Project Management", value: "Project Management" },
   { label: "Business Intelligence", value: "Business Intelligence" },
+  { label: "Data Science", value: "Data Science" },
+  { label: "Project Management", value: "Project Management" },
+  { label: "Vibe Coding", value: "Vibe Coding" },
 ];
 
 const filterClass: Record<ProjectCategory, string> = {
