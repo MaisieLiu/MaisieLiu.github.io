@@ -242,7 +242,7 @@ const HomeTab = () => {
 
           {/* Project Management column */}
           <div className="space-y-4">
-            <p className="font-note text-xs font-semibold text-cat-vibe uppercase tracking-widest text-center">
+            <p className="font-note text-xs font-semibold text-cat-pm uppercase tracking-widest text-center">
               Project Management
             </p>
             {vibeProjects.map((p, i) => (
