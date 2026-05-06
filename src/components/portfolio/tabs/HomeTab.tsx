@@ -5,10 +5,10 @@ import { STICKERS, Sticker } from "@/data/stickers";
 import maisie_logo from "@/assets/stickers/maisie_logo.png";
 
 const SKILLS = {
-  Languages:  ["SQL", "Python"],
+  Languages:  ["SQL", "Python", "R Programming"],
   Databases:  ["Snowflake", "BigQuery", "PostgreSQL", "MySQL", "Databricks", "AWS"],
   "BI Tools": ["Tableau", "Power BI", "Looker", "Cognos BI", "Domo", "Shiny"],
-  Tech:       ["Jupyter", "GitHub", "Excel", "Google Suite"],
+  Tech:       ["Jupyter Notebook", "GitHub", "Excel", "Google Suite"],
 };
 
 const skillColors: Record<string, { bg: string; text: string }> = {
