@@ -84,7 +84,7 @@ const HomeTab = () => {
         className="paper-card relative max-w-3xl mx-auto"
       >
         <span className="washi-tape -top-3 right-10 rotate-2" aria-hidden />
-        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie </h2>
+        <h2 className="font-hand text-4xl text-foreground">Hi, I'm Maisie 👋 </h2>
         <div className="mt-4 space-y-3 font-note text-base text-foreground/90 leading-relaxed">
           <p>
             <span className="text-terracotta font-bold">Food-inspired</span>, data-driven analyst
