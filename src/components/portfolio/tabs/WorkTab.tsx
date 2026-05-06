@@ -1,7 +1,28 @@
-import { WORK_PROJECTS } from "@/data/projects";
+import { useState } from "react";
+import { WORK_PROJECTS, ProjectCategory } from "@/data/projects";
 import ProjectCard from "../ProjectCard";
 
+const FILTERS: { label: string; value: ProjectCategory | "All" }[] = [
+  { label: "All", value: "All" },
+  { label: "Data Science", value: "Data Science" },
+  { label: "Vibe Coding", value: "Vibe Coding" },
+  { label: "Project Management", value: "Project Management" },
+];
+
+const filterClass: Record<ProjectCategory, string> = {
+  "Data Science":       "bg-cat-data/20 text-cat-data border-cat-data/40",
+  "Vibe Coding":        "bg-cat-vibe/20 text-cat-vibe border-cat-vibe/40",
+  "Project Management": "bg-cat-pm/20 text-cat-pm border-cat-pm/40",
+};
+
 const WorkTab = () => {
+  const [active, setActive] = useState<ProjectCategory | "All">("All");
+
+  const filtered =
+    active === "All"
+      ? WORK_PROJECTS
+      : WORK_PROJECTS.filter((p) => p.category === active);
+
   return (
     <div className="space-y-8">
       <header className="text-center max-w-2xl mx-auto">
@@ -13,30 +34,38 @@ const WorkTab = () => {
         </p>
       </header>
 
-      {WORK_PROJECTS.length === 0 ? (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {[0, 1, 2].map((i) => (
-            <article
-              key={i}
-              className="paper-card relative border-dashed bg-card/50 text-center"
-              style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1.5}deg)` }}
+      {/* Filter pills */}
+      <div className="flex flex-wrap justify-center gap-2">
+        {FILTERS.map((f) => {
+          const isActive = active === f.value;
+          const colorClass =
+            f.value === "All"
+              ? "bg-foreground/10 text-foreground border-foreground/20"
+              : filterClass[f.value as ProjectCategory];
+          return (
+            <button
+              key={f.value}
+              onClick={() => setActive(f.value)}
+              className={`rounded-full border px-4 py-1 text-sm font-semibold transition-all ${colorClass} ${
+                isActive
+                  ? "opacity-100 shadow-sm scale-105"
+                  : "opacity-40 hover:opacity-70"
+              }`}
             >
-              <span className="washi-tape -top-3 left-1/2 -translate-x-1/2" aria-hidden />
-              <div className="font-hand text-2xl text-muted-foreground mt-2">
-                Coming soon ✨
-              </div>
-              <p className="font-note text-sm text-muted-foreground mt-2">
-                Tape a project here — edit{" "}
-                <code className="text-xs bg-secondary rounded px-1 py-0.5">
-                  src/data/projects.ts
-                </code>
-              </p>
-            </article>
-          ))}
+              {f.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Project grid */}
+      {filtered.length === 0 ? (
+        <div className="text-center font-note text-muted-foreground py-12">
+          No projects here yet ✨
         </div>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {WORK_PROJECTS.map((p, i) => (
+          {filtered.map((p, i) => (
             <ProjectCard key={p.title} project={p} index={i} />
           ))}
         </div>
