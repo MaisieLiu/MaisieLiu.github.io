@@ -22,5 +22,8 @@ export const TIMELINE: TimelineItem[] = [
   { years: "2024–2026", title: "M.S. in Information Management", org: "University of Washington", kind: "education",
     note: "Specializing in Data Science, Business Intelligence, People Analytics & Program Management." },
   { years: "2025–2026", title: "Graduate Research Assistant", org: "UW People Analytics Insights Lab", kind: "work" },
-  { years: "Next…",     title: "Waiting to come ✨", org: "", kind: "work" },
 ];
+
+// ---------------------------------------------------------------------------
+// if you want the waiting to come org: ""
+// ---------------------------------------------------------------------------
