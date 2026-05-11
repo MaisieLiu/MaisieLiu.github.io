@@ -94,13 +94,13 @@ const HomeTab = () => {
             food & beverage, operations, and HR.
           </p>
           <p>
-            Growing up as an athlete, food sparked my curiosity about people and
-            systems. Data became how I make sense of both.
+            Growing up as an athlete, food sparked my curiosity about people and systems. Data became how I make sense of both. 
+            When most people look at data in pieces, I connect systems to find where the real opportunities are. 
           </p>
           <p>
-            Data is not just numbers; Data helps businesses uncover potential opportunities by analytics and visualizations 
-            looking at data from different dimensions. And with my expertise in systems thinking, I use data to help organizations 
-            prosper and close operational gaps.
+            As an analyst (or from an analyst perspective), Data is not just numbers; Data helps businesses uncover potential opportunities 
+            by analytics and visualizations looking at data from different dimensions. 
+            And with my expertise in systems thinking, I use data to help organizations prosper and close operational gaps.
           </p>
           <p>
             I believe the best insights come from staying curious and staying connected. 
