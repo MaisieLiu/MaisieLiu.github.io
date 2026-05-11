@@ -98,6 +98,11 @@ const HomeTab = () => {
             systems. Data became how I make sense of both.
           </p>
           <p>
+            Data is not just numbers; Data helps businesses uncover potential opportunities by analytics and visualizations 
+            looking at data from different dimensions. And with my expertise in systems thinking, I use data to help organizations 
+            prosper and close operational gaps.
+          </p>
+          <p>
             I believe the best insights come from staying curious and staying connected. 
             I am currently looking for Business Intelligence, Data Science or Data Analytics opportunities in the United States, specifically 
             in HR, Retail, Healthcare, etc. (also open to all industries), to help businesses make data-driven decisions! 
