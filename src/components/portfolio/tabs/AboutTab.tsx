@@ -71,17 +71,6 @@ const AboutTab = () => {
             <span className="h-3 w-3 rounded-full bg-mustard" /> Field Experience
           </span>
         </div>
-
-        <div className="mt-8 text-center">
-          <a
-            href={SOCIALS.resume}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-semibold shadow-md hover:opacity-90 transition-opacity"
-          >
-            <FileText className="h-4 w-4" /> Download my resume
-          </a>
-        </div>
         <ol className="relative mt-10 max-w-3xl mx-auto">
           {/* center dashed line */}
           <div

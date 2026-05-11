@@ -98,7 +98,7 @@ const HomeTab = () => {
             When most people look at data in pieces, I connect systems to find where the real opportunities are. 
           </p>
           <p>
-            As an analyst (or from an analyst perspective), Data is not just numbers; Data helps businesses uncover potential opportunities 
+            As an analyst, Data is not just numbers; Data helps businesses uncover potential opportunities 
             by analytics and visualizations looking at data from different dimensions. 
             And with my expertise in systems thinking, I use data to help organizations prosper and close operational gaps.
           </p>
