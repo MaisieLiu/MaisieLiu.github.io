@@ -5,6 +5,7 @@ import HomeTab from "@/components/portfolio/tabs/HomeTab";
 import AboutTab from "@/components/portfolio/tabs/AboutTab";
 import WorkTab from "@/components/portfolio/tabs/WorkTab";
 import InterestsTab from "@/components/portfolio/tabs/InterestsTab";
+import IntroScreen from "@/components/IntroScreen";
 import { AnimatePresence, motion } from "framer-motion";
 
 const VALID_TABS: TabKey[] = ["home", "about", "work", "interests"];
@@ -15,15 +16,17 @@ const getTabFromHash = (): TabKey => {
 };
 
 const Index = () => {
+  const [showIntro, setShowIntro] = useState(() => {
+    return !sessionStorage.getItem("intro-seen");
+  });
+
   const [tab, setTab] = useState<TabKey>(() =>
     typeof window !== "undefined" ? getTabFromHash() : "home"
   );
 
   useEffect(() => {
-    // SEO: title + meta description
-    document.title = "Maisie's Playground — Data Scientist Portfolio";
-    const desc =
-      "Maisie Liu's portfolio — data scientist, vibe coder, and curious explorer. Projects, experience, and interests.";
+    document.title = "Maisie Liu — Data Analyst & Project Manager";
+    const desc = "Maisie Liu's portfolio — data analyst, BI specialist, and curious explorer.";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement("meta");
@@ -41,6 +44,15 @@ const Index = () => {
     window.location.hash = `/${next}`;
     setTab(next);
   };
+
+  const handleIntroDone = () => {
+    sessionStorage.setItem("intro-seen", "1");
+    setShowIntro(false);
+  };
+
+  if (showIntro) {
+    return <IntroScreen onDone={handleIntroDone} />;
+  }
 
   return (
     <main className="min-h-screen w-full">
