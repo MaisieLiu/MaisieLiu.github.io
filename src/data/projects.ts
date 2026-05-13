@@ -60,7 +60,7 @@ export const RECENT_PROJECTS: Project[] = [
       "Led end-to-end data collection and validation efforts for AI chatbot training, enforcing data governance standards across 100% of project inputs to guarantee accuracy, accountability, and up-to-date historical qualitative data.",
     ],
     images: [markerquestImg2],
-    link: "https://remnant-project.lovable.app",
+    link: "https://www.markerquest.ai",
   },
   {
     id: "dannywoo-garden",
@@ -126,7 +126,7 @@ export const WORK_PROJECTS: Project[] = [
       "Led end-to-end data collection and validation efforts for AI chatbot training, enforcing data governance standards across 100% of project inputs to guarantee accuracy, accountability, and up-to-date historical qualitative data.",
     ],
     images: [markerquestImg],
-    link: "https://remnant-project.lovable.app",
+    link: "https://www.markerquest.ai",
   },
   {
   id: "genuine-burnout",
