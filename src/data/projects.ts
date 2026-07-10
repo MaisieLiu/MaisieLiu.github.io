@@ -128,7 +128,7 @@ export const WORK_PROJECTS: Project[] = [
       "Conducted data analysis on sales and performance data filtering different geographical region and comparison between stores to support decisions in inventory management, budget allocation, and store expansion possibilities.",
     ],
     images: [starmodelImg],
-    tableauUrl: "https://public.tableau.com/views/IMT577_DW_Maisie_Liu_Dashboard_Story/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    tableauUrl: "https://public.tableau.com/views/IMT577_DW_Maisie_Liu_Dashboard_Story/Dashboard2",
 
   },
   {
