@@ -119,7 +119,7 @@ const ProjectDetail = () => {
           <h2 className="font-hand text-2xl text-foreground mb-4">
             <span className="dashed-underline">Live Dashboard</span>
           </h2>
-          <div className="w-full aspect-[4/3] rounded-lg overflow-hidden">
+          <div style={{ width: "100%", height: "800px", overflow: "hidden" }}>
             <tableau-viz
               src={project.tableauUrl}
               width="100%"
