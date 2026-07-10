@@ -109,30 +109,26 @@ const ProjectDetail = () => {
       )}
 
       {project.tableauUrl && (
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.2 }}
-            className="paper-card relative mb-8"
-          >
-            <span className="washi-tape -top-3 left-1/2 -translate-x-1/2" aria-hidden />
-            <h2 className="font-hand text-2xl text-foreground mb-4">
-              <span className="dashed-underline">Live Dashboard</span>
-            </h2>
-            <div
-              className="tableauPlaceholder w-full"
-              style={{ position: "relative", paddingBottom: "75%" }}
-            >
-              <iframe
-                src={`${project.tableauUrl}?:embed=yes&:toolbar=yes&:animate_transition=yes&:display_count=yes&:language=en-US`}
-                width="100%"
-                height="100%"
-                style={{ position: "absolute", top: 0, left: 0, border: "none", borderRadius: "8px" }}
-                allowFullScreen
-              />
-            </div>
-          </motion.div>
-        )}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.2 }}
+          className="paper-card relative mb-8"
+        >
+          <span className="washi-tape -top-3 left-1/2 -translate-x-1/2" aria-hidden />
+          <h2 className="font-hand text-2xl text-foreground mb-4">
+            <span className="dashed-underline">Live Dashboard</span>
+          </h2>
+          <div className="w-full aspect-[4/3] rounded-lg overflow-hidden">
+            <tableau-viz
+              src={project.tableauUrl}
+              width="100%"
+              height="100%"
+              toolbar="bottom"
+            />
+          </div>
+        </motion.div>
+      )}
 
       {/* My Role */}
       {project.bullets.length > 0 && (
