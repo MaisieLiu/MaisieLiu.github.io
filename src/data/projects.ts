@@ -29,6 +29,7 @@ import boxoffImg from "@/assets/projectimages/boxoffice.jpg"
 import offCampusImg1 from "@/assets/projectimages/off-campus-housing-1.jpg";
 import offCampusImg2 from "@/assets/projectimages/off-campus-housing-2.jpg";
 import offCampusImg3 from "@/assets/projectimages/off-campus-housing-3.jpg";
+import starmodelImg from "@/assets/projectimages/kpidashboard.png";
 
 export type ProjectCategory = "Vibe Coding" | "Data Science" | "Project Management" | "Business Intelligence";
 
@@ -41,6 +42,7 @@ export interface Project {
   bullets: string[];    // "My role" points shown on the detail page
   images?: string[];    // one or more screenshots / slides
   link?: string;        // external "learn more" URL
+  tableauUrl?: string;        
 }
 
 // ---------------------------------------------------------------------------
@@ -113,6 +115,22 @@ export const RECENT_PROJECTS: Project[] = [
 // Full project list — shown on the Work tab, each card links to /work/:id
 // ---------------------------------------------------------------------------
 export const WORK_PROJECTS: Project[] = [
+  {
+    id: "kpidashboard",
+    title: "Retail Business Intelligence Dashboard",
+    year: "2026",
+    category: "Business Intelligence",
+    description:
+      "Led end-to-end data mining and business intelligence initiative, where I extracted data from cloud storages, designed star schema data modeling, built ETL pipelines, and loaded clean and ready data tables into Tableau for business reporting and decision-making.",
+    bullets: [
+      "Define OKRs for a quarter-long project, identifying KPIs that meets business requirements and can data storytell patterns to help busuiness make decisions and improve operationse.",
+      "Engineered data warehouse infrastructure, designed STAR schema data model, and created ETL pipelines in Snowflake by querying SQL, supporting dashboard creation and maintenence on Tableau to suggest business data-driven decisions.",
+      "Conducted data analysis on sales and performance data filtering different geographical region and comparison between stores to support decisions in inventory management, budget allocation, and store expansion possibilities.",
+    ],
+    images: [starmodelImg],
+    tableauUrl: "https://public.tableau.com/views/IMT577_DW_Maisie_Liu_Dashboard_Story/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+
+  },
   {
     id: "markerquest",
     title: "MarkerQuest: The Remnant Project",
