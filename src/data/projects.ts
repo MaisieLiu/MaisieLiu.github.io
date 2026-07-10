@@ -124,7 +124,7 @@ export const WORK_PROJECTS: Project[] = [
       "Led end-to-end data mining and business intelligence initiative, where I extracted data from cloud storages, designed star schema data modeling, built ETL pipelines, and loaded clean and ready data tables into Tableau for business reporting and decision-making.",
     bullets: [
       "Define OKRs for a quarter-long project, identifying KPIs that meets business requirements and can data storytell patterns to help busuiness make decisions and improve operationse.",
-      "Engineered data warehouse infrastructure, designed STAR schema data model, and created ETL pipelines in Snowflake by querying SQL, supporting dashboard creation and maintenence on Tableau to suggest business data-driven decisions.",
+      "Engineered data warehouse infrastructure, designed STAR schema data model, and created ETL pipelines in Snowflake by querying SQL, supporting dashboard creation and maintenence on Tableau and suggesting business data-driven decisions.",
       "Conducted data analysis on sales and performance data filtering different geographical region and comparison between stores to support decisions in inventory management, budget allocation, and store expansion possibilities.",
     ],
     images: [starmodelImg],
