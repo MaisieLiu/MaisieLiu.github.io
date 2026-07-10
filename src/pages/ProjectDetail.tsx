@@ -123,7 +123,7 @@ const ProjectDetail = () => {
             <tableau-viz
               src={project.tableauUrl}
               width="100%"
-              height="100%"
+              height="600%"
               toolbar="bottom"
             />
           </div>
